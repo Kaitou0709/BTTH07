@@ -1,0 +1,35 @@
+.box
+{
+    margin-top: 60px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 0px gray
+}
+.content
+{
+    margin-bottom: 20px;
+}
+.text
+{
+    text-align: right;
+    height: 24px;
+}
+.form
+{
+    height: 24px;
+}
+.align
+{
+    display: flex;
+}
+.form-check
+{
+    margin-right: 6px;
+}
+.button
+{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
