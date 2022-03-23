@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
+    <form id="Registrantion-Form">
         <div class="row justify-content-center">
             <div class="col-sm-5 box">
                 <h3>Registration Form</h3>
@@ -19,7 +19,7 @@
                         <p>User id: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <input type="text" class="form-control form" id="exampleUserId1">
+                        <input type="text" class="form-control form" id="exampleUserId1" name="exampleUserId1">
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -27,7 +27,7 @@
                         <p>Password: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <input type="password" class="form-control form" id="exampleInputPassword1">
+                        <input type="password" class="form-control form" id="exampleInputPassword" name="exampleInputPassword">
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -35,7 +35,7 @@
                         <p>Name: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <input type="text" class="form-control form" id="exampleInputName1">
+                        <input type="text" class="form-control form" id="exampleInputName1" name="exampleInputName1">
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -71,7 +71,7 @@
                         <p>Email: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <input type="text" class="form-control form" id="exampleInputEmail1">
+                        <input type="email" class="form-control form" id="exampleInputEmail1">
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -105,7 +105,7 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Non English
                             </label>
@@ -126,8 +126,9 @@
             </div>
 
         </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </form>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
     <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
