@@ -51,8 +51,8 @@
                         <p>User id: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option selected>(Please select a country)</option>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" class="required" id="select" name="formselect">
+                            <option value="">(Please select a country)</option>
                             <option value="1">Viet Nam</option>
                             <option value="2">Khac</option>
                         </select>
@@ -63,7 +63,7 @@
                         <p>ZIP Code: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <input type="text" class="form-control form" id="exampleInputZip1">
+                        <input type="text" class="form-control form" id="exampleInputZip1" name="exampleInputZip1">
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -71,7 +71,7 @@
                         <p>Email: </p>
                     </div>
                     <div class="col-sm-7 input">
-                        <input type="email" class="form-control form" id="exampleInputEmail1">
+                        <input type="email" class="form-control form" id="exampleInputEmail1" name="exampleInputEmail1">
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -79,18 +79,16 @@
                         <p>Sex: </p>
                     </div>
                     <div class="col-sm-7 input align">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Male
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Female
-                            </label>
-                        </div>
+                        <p class="container">
+                        <label>
+                            <input type="radio" name="Sex" value="Male"/>
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio" name="Sex" value="Female"/>
+                            Female
+                        </label>
+                        </p>
                     </div>
                 </div>
                 <div class="row justify-content-start content">
@@ -98,18 +96,16 @@
                         <p>Language: </p>
                     </div>
                     <div class="col-sm-7 input align">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
+                        <p class="container2">
+                            <label>
+                                <input type="checkbox" name="Language" value="English"/>
                                 English
                             </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                            <label class="form-check-label" for="flexCheckChecked">
+                            <label>
+                                <input type="checkbox" name="Language" value="Non English"/>
                                 Non English
                             </label>
-                        </div>
+                            </p>
                     </div>
                 </div>
                 <div class="row justify-content-start content">
